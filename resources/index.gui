@@ -1,0 +1,38 @@
+<svg id="page" class="portrait-view">
+  
+
+  <svg>
+<image href="bgDone.png" />
+
+  //Hori Lines
+  <line x1="0%" y1="204" x2="100%" y2="204" fill="#F535AA" stroke-width="2" />
+
+  </svg>
+  <svg>
+  <g id="linesA">
+<line x1="0" y1="200" x2="300" y2="200" fill="#ef67bb" />
+</g>
+<g id="linesB">
+<line x1="0" y1="202" x2="300" y2="202" fill="#ef67bb" />
+</g>
+<g id="linesC">
+<line x1="0" y1="205" x2="300" y2="205" fill="#ef67bb" />
+<line x1="0" y1="210" x2="300" y2="210" fill="#ef67bb" />
+</g>
+<g id="linesD">
+<line x1="0" y1="215" x2="300" y2="215" fill="#ef67bb" />
+<line x1="0" y1="225" x2="300" y2="225" fill="#ef67bb" />
+</g>
+<g id="linesE">
+<line x1="0" y1="235" x2="300" y2="235" fill="#ef67bb" />
+<line x1="0" y1="250" x2="300" y2="250" fill="#ef67bb" />
+</g>
+<g id="linesF">
+<line x1="0" y1="265" x2="300" y2="265" fill="#ef67bb" />
+<line x1="0" y1="290" x2="300" y2="290" fill="#ef67bb" />
+</g>
+</svg>
+
+ <text id="myLabel" />
+
+</svg>

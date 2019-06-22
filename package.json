@@ -1,0 +1,34 @@
+{
+  "fitbit": {
+    "appUUID": "0e7a6733-5fdf-4fcd-8b5f-f726f4d1858e",
+    "appType": "clockface",
+    "appDisplayName": "SynthwaveWatch",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini"
+    ],
+    "i18n": {
+      "en": {
+        "name": "SynthwaveWatch"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.0",
+    "@fitbit/sdk-cli": "^1.6.0"
+  },
+  "dependencies": {
+    "fitbit": "0.0.7",
+    "fitbit-animate": "^0.1.0",
+    "gulp": "^4.0.2",
+    "node-gyp": "^5.0.1"
+  },
+  "scripts": {
+    "build": "fitbit-build"
+  }
+}
