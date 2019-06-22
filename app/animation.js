@@ -6,13 +6,10 @@ let animate2 = document.getElementById('linesB');
 let animate3 = document.getElementById('linesC');
 let animate4 = document.getElementById('linesD');
 let animate5 = document.getElementById('linesE');
-let animate6 = document.getElementById('linesF');
 
 export function animation() {
     fitbit_animate(animate1)
-        
 }
-
 
 let animate1 = [
     {
@@ -20,7 +17,7 @@ let animate1 = [
         prop: "translate",
         subprop: "y",
         from: 0,
-        to: 2,
+        to: 4,
         dur: 1000
     },
     {
@@ -28,7 +25,7 @@ let animate1 = [
       prop: "translate",
       subprop: "y",
       from: 0,
-      to: 3,
+      to: 8,
       dur: 1000
   },
     {
@@ -36,13 +33,21 @@ let animate1 = [
         prop: "translate",
         subprop: "y",
         from: 0,
-        to: 5,
+        to: 16,
         dur: 1000
     },
     {
         elem: animate4,
         prop: "translate",
         subprop: "y",
+        from: 0,
+        to: 32,
+        dur: 1000
+    },
+    {
+        elem: animate4,
+        prop: "scale",
+        subprop: "height",
         from: 0,
         to: 10,
         dur: 1000
@@ -52,14 +57,7 @@ let animate1 = [
         prop: "translate",
         subprop: "y",
         from: 0,
-        to: 15,
-        dur: 1000
-    }, {
-        elem: animate6,
-        prop: "translate",
-        subprop: "y",
-        from: 0,
-        to: 25,
+        to: 64,
         dur: 1000
     }
   ];
