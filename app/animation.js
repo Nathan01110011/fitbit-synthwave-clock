@@ -44,14 +44,6 @@ let animate1 = [
         to: 32,
         dur: 1000
     },
-    {
-        elem: animate4,
-        prop: "scale",
-        subprop: "height",
-        from: 0,
-        to: 10,
-        dur: 1000
-    },
      {
         elem: animate5,
         prop: "translate",

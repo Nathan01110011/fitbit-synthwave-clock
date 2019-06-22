@@ -1,34 +1,36 @@
 <svg id="page" class="portrait-view">
 
-
   <svg>
-    <image href="backgroundVersa.png" />
-
+    <image href="images/backgroundVersa.png" />
   </svg>
-  <svg>
-    <g id="linesA">
-      <!--<line x1="0" y1="204" x2="300" y2="204" fill="#ef67bb" stroke-width="1" />-->
-      <image href="NeonLine.png" width="300" height="2" y="202" />
-    </g>
-    <g id="linesB">
-      <!--<line x1="0" y1="208" x2="300" y2="208" fill="#ef67bb" stroke-width="1" />-->
 
-      <image href="NeonLine.png" width="300" height="4" y="208" />
+  
+  <image id="hourY" href="images/48.png" x="72" y="115" height="80" width="60" />
+  <image id="hourX" href="images/48.png" x="17" y="115" height="80" width="60" />
+  <image id="minsX" href="images/48.png" x="168" y="115" height="80" width="60" />
+  <image id="minsY" href="images/48.png" x="225" y="115" height="80" width="60" />
+
+  <svg>
+    <g id="linesA">=
+      <image href="images/NeonLine.png" width="300" height="2" y="202" />
+    </g>
+    <g id="linesB">=
+
+      <image href="images/NeonLine.png" width="300" height="4" y="206" />
     </g>
     <g id="linesC">
-      <!--<line x1="0" y1="216" x2="300" y2="216" fill="#ef67bb" stroke-width="2" />-->
-      <image href="NeonLine.png" width="300" height="6" y="216" />
+      <image href="images/NeonLine.png" width="300" height="6" y="214" />
     </g>
     <g id="linesD">
-      <!--<line x1="0" y1="232" x2="300" y2="232" fill="#ef67bb" stroke-width="2" />-->
-      <image href="NeonLine.png" width="300" height="8" y="232" />
+      <image href="images/NeonLine.png" width="300" height="8" y="230" />
     </g>
     <g id="linesE">
-      <!--<line x1="0" y1="264" x2="300" y2="264" fill="#ef67bb" stroke-width="3" />-->
-      <image href="NeonLine.png"width="300" height="10" y="264" />
+      <image href="images/NeonLine.png" width="300" height="10" y="262" />
     </g>
   </svg>
 
   <text id="myLabel" />
+  <image id="colon" href="images/Colon.png" x="120" y="125" width="20%" height="20%" />
+
 
 </svg>
