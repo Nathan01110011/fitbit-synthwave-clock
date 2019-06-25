@@ -4,4 +4,4 @@
 
 Fitbit App Store link - tobeadded
 
-![My image](/example.png)
+![My image](/Synthwave.gif)
