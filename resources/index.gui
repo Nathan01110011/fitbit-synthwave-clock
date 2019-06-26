@@ -1,21 +1,14 @@
 <svg id="page" class="portrait-view">
 
   <svg>
-    <image href="images/backgroundVersa.png" />
+    <image href="images/backgroundVersaBottom.png" />
   </svg>
-
-  
-  <image id="hourY" href="images/48.png" x="72" y="115" height="80" width="60" />
-  <image id="hourX" href="images/48.png" x="17" y="115" height="80" width="60" />
-  <image id="minsX" href="images/48.png" x="168" y="115" height="80" width="60" />
-  <image id="minsY" href="images/48.png" x="225" y="115" height="80" width="60" />
 
   <svg>
     <g id="linesA">=
       <image href="images/NeonLine.png" width="300" height="2" y="202" />
     </g>
     <g id="linesB">=
-
       <image href="images/NeonLine.png" width="300" height="4" y="206" />
     </g>
     <g id="linesC">
@@ -29,8 +22,16 @@
     </g>
   </svg>
 
+  <svg>
+    <image href="images/backgroundVersaTop.png" />
+  </svg>
   <text id="myLabel" />
   <image id="colon" href="images/Colon.png" x="120" y="125" width="20%" height="20%" />
+
+  <image id="hourX" href="images/48.png" x="30" y="115" height="80" width="60" />
+  <image id="hourY" href="images/48.png" x="80" y="115" height="80" width="60" />
+  <image id="minsX" href="images/48.png" x="160" y="115" height="80" width="60" />
+  <image id="minsY" href="images/48.png" x="210" y="115" height="80" width="60" />
 
 
 </svg>

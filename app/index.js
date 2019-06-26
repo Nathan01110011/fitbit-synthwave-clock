@@ -3,6 +3,7 @@ import document from "document";
 import { preferences } from "user-settings";
 import * as util from "../common/utils";
 import { animation } from "./animation";
+import { display } from "display";
 
 // Update the clock every minute
 clock.granularity = "seconds";
@@ -18,7 +19,10 @@ let mins2 = document.getElementById("minsY");
 // Update the <text> element every tick with the current time
 clock.ontick = evt => {
 
-  animation();
+  //animation();
+  if (display.on) { // if display turned on - start animation
+    animation();
+  }
 
   let d = evt.date;
 
@@ -61,6 +65,6 @@ function setDate(val) {
 }
 
 function drawDigit(val, place) {
-  place.image = `images/${val+48}.png`;
+  place.image = `images/${val + 48}.png`;
 }
 
