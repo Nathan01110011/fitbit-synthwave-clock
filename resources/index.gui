@@ -28,11 +28,13 @@
   <text id="myLabel" />
   <image id="colon" href="images/Colon.png" x="120" y="125" width="20%" height="20%" />
 
-  <image id="hourX" href="images/48.png" x="30" y="110" height="80" width="60" />
+  <image id="hourX" href="images/48.png" x="28" y="110" height="80" width="60" />
   <image id="hourY" href="images/48.png" x="80" y="110" height="80" width="60" />
   <image id="minsX" href="images/48.png" x="160" y="110" height="80" width="60" />
-  <image id="minsY" href="images/48.png" x="210" y="110" height="80" width="60" />
+  <image id="minsY" href="images/48.png" x="212" y="110" height="80" width="60" />
 
   <image id="day" href="images/date/1x.png" x="30" y="25" height="100" width="150" />
-
+  <image id="dateX" href="images/date/0.png" x="140" y="25" height="100" width="100" />
+  <image id="dateY" href="images/date/0.png" x="180" y="25" height="100" width="100" />
+  
 </svg>

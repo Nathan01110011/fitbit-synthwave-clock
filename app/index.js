@@ -16,6 +16,8 @@ let hours2 = document.getElementById("hourY");
 let mins1 = document.getElementById("minsX");
 let mins2 = document.getElementById("minsY");
 let day = document.getElementById("day");
+let date1 = document.getElementById("dateX");
+let date2 = document.getElementById("dateY");
 
 // Update the <text> element every tick with the current time
 clock.ontick = evt => {
@@ -27,7 +29,7 @@ clock.ontick = evt => {
 
   let d = evt.date;
 
-  console.log(d.getDay());
+  placeDate(d.getDate());
 
   // HOURS
   let hours = d.getHours();
@@ -62,9 +64,19 @@ function setMins(val) {
   drawDigit(Math.floor(val % 10), mins2);
 }
 
-function setDate(val) {
-  drawDigit(Math.floor(val / 10), date1);
-  drawDigit(Math.floor(val % 10), date2);
+function placeDate(val) {
+
+let dateNo = val;
+  if (dateNo < 10) {
+    date1.image = `images/date/0.png`;
+  } else {
+    date1.image = `images/date/${dateNo}.png`;
+  }
+  var one = String(dateNo).charAt(0);
+  var two = String(dateNo).charAt(1);
+
+  date1.image = `images/date/${one}.png`;
+  date2.image = `images/date/${two}.png`;
 }
 
 function setDay(val) {
