@@ -10,7 +10,7 @@ clock.granularity = "seconds";
 
 // Get a handle on the <text> element
 const myLabel = document.getElementById("myLabel");
-let separator = document.getElementById("colon");
+let separator = document.getElementById("separator");
 let hours1 = document.getElementById("hourX");
 let hours2 = document.getElementById("hourY");
 let mins1 = document.getElementById("minsX");
