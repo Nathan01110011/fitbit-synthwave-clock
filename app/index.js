@@ -66,17 +66,20 @@ function setMins(val) {
 
 function placeDate(val) {
 
-let dateNo = val;
+  let dateNo = val;
+
+  var one = String(dateNo).charAt(0);
+
   if (dateNo < 10) {
     date1.image = `images/date/0.png`;
+    date2.image = `images/date/${dateNo}.png`
   } else {
-    date1.image = `images/date/${dateNo}.png`;
+    var two = String(dateNo).charAt(1);
+    date1.image = `images/date/${one}.png`;
+    date2.image = `images/date/${two}.png`;
   }
-  var one = String(dateNo).charAt(0);
-  var two = String(dateNo).charAt(1);
 
-  date1.image = `images/date/${one}.png`;
-  date2.image = `images/date/${two}.png`;
+
 }
 
 function setDay(val) {
