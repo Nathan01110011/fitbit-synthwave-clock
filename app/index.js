@@ -19,14 +19,18 @@ let day = document.getElementById("day");
 let date1 = document.getElementById("dateX");
 let date2 = document.getElementById("dateY");
 
+
+let road = document.getElementById("road");
+let num = 1;
+
+if (display.on) { // if display turned on - start animation
+  setInterval(function(){ setRoadAnimation() }, 40);
+}
+
 // Update the <text> element every tick with the current time
 clock.ontick = evt => {
 
-  //animation();
-  if (display.on) { // if display turned on - start animation
-    animation();
-  }
-
+  
   let d = evt.date;
 
   placeDate(d.getDate());
@@ -94,3 +98,11 @@ function drawDay(val, place) {
   place.image = `images/date/${val}x.png`;
 }
 
+function setRoadAnimation(){
+  road.image = `images/roadAnimation/${num}.png`
+  num = num + 1;
+  if (num > 24) {
+      num = 1
+  }
+
+}

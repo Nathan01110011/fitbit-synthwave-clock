@@ -1,25 +1,7 @@
 <svg id="page" class="portrait-view">
 
   <svg>
-    <image href="images/backgroundBottom.png" />
-  </svg>
-
-  <svg>
-    <g id="linesA">=
-      <image href="images/NeonLine.png" width="100%" height="2" y="67%" />
-    </g>
-    <g id="linesB">=
-      <image href="images/NeonLine.png" width="100%" height="4" y="69%" />
-    </g>
-    <g id="linesC">
-      <image href="images/NeonLine.png" width="100%" height="6" y="71%" />
-    </g>
-    <g id="linesD">
-      <image href="images/NeonLine.png" width="100%" height="8" y="77%" />
-    </g>
-    <g id="linesE">
-      <image href="images/NeonLine.png" width="100%" height="10" y="87%" />
-    </g>
+    <image id="road" href="images/roadAnimation/1.png" />
   </svg>
 
   <svg>
