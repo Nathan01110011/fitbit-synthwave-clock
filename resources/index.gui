@@ -1,11 +1,9 @@
 <svg id="page" class="portrait-view">
-
-  <svg>
-    <image id="road" href="images/roadAnimation/1.png" />
-  </svg>
-
   <svg>
     <image href="images/backgroundTop.png" class="backgroundTop" />
+  </svg>
+  <svg>
+    <image id="road" href="images/roadAnimation/1.png" />
   </svg>
   <text id="myLabel" />
   <image id="separator" href="images/Separator.png" x="120" y="125" width="20%" height="20%" />
@@ -18,5 +16,5 @@
   <image id="day" href="images/date/1x.png" x="10%" y="12%" height="100" width="150" />
   <image id="dateX" href="images/date/0.png" x="47%" y="12%" height="100" width="100" />
   <image id="dateY" href="images/date/0.png" x="60%" y="12%" height="100" width="100" />
-  
+
 </svg>
