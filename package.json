@@ -26,7 +26,7 @@
     "fitbit": "0.0.7",
     "fitbit-animate": "^0.1.0",
     "gulp": "^4.0.2",
-    "node-gyp": "^5.0.1"
+    "node-gyp": "^9.4.0"
   },
   "scripts": {
     "build": "fitbit-build"
